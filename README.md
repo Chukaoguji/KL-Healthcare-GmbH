@@ -37,6 +37,7 @@ The third date was reached! (13.07.2022 - 07:00)
 ## Work in progress
 
 ```
+Integration of a database to save and pull information from
 GUI - Graphical User Interface
 
 ```
