@@ -81,15 +81,6 @@ for n in range(0,rows):
 print("Thank you very much. I will notify them! ")
 print("....\n")
 
-def wait_until(condition, timeout = 60, period = 0.25):
-    must_end = time.time() + timeout
-    while (time.time() < must_end):
-        if(condition):
-            return True
-        else:
-            time.sleep(period)
-            continue
-    return False
 
 # Countdown
 numbers = ["First" , "Second" , "Third" , "Fourth" , "Fifth" , "Sixth" , "Seventh", "Eighth", "Ninth" , "Tenth" ]
@@ -118,8 +109,4 @@ while True:
         print("Error")
     finally:
         print(" ")
-
-
-# for row in data_array:
-#     print(row)
 
