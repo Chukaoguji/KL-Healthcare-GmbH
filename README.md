@@ -40,3 +40,6 @@ The third date was reached! (13.07.2022 - 07:00)
 GUI - Graphical User Interface
 
 ```
+<p align="center">
+  <img src="https://i.imgur.com/W40Vw0z.jpg" width="500">
+</p>
