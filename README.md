@@ -33,3 +33,10 @@ The first date has been reached! (12.07.2022 - 16:00)
 The second date has been reached! (12.07.2022 - 17:00)
 The third date was reached! (13.07.2022 - 07:00)
 ```
+
+## Work in progress
+
+```
+GUI - Graphical User Interface
+
+```
