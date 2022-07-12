@@ -11,7 +11,7 @@ The [```KL-Healthcare-GmbH Project```](https://github.com/maxKudi/KL-Healthcare-
 [![Download](https://img.shields.io/badge/download-dataset-f20a0a.svg?longCache=true&style=flat)](https://github.com/maxKudi/KL-Healthcare-GmbH/archive/master.zip)
 
 ## Performance 
-Currently a 2D array was used as the data structure to mimic a database in as much as this 2D array can be increased to 1000, i would recommend 0 - 10 so as not to break some part of the code. The unit test code tests the values the user inputs.  
+Currently a 2D array was used as the data structure to mimic a database in as much as this 2D array can be increased to 1000, i would recommend [0 - 9] so as not to break some part of the code. The unit test code tests the values the user inputs.  
 
 ## Description - Example program flow
 
