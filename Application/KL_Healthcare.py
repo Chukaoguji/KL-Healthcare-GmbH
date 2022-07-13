@@ -60,15 +60,15 @@ for n in range(0,rows):
             hour = int(time_to_array[0])
             minutes = int(time_to_array[1])
             
-            if (hour in range(0, 24) and minutes in range(0, 60) and data_array[i][0] >= today.day and data_array[i][1] >= today.month and data_array[i][2] >= today.year):
+            if (hour in range(0, 24) and minutes in range(0, 60) and data_array[i][0] > today.day and data_array[i][1] >= today.month and data_array[i][2] >= today.year):
                 break
             elif(str(hour) >= str(now.tm_hour) and str(minutes) > str(now.tm_min) and data_array[i][0] == today.day and data_array[i][1] == today.month and data_array[i][2] == today.year):
                 break
             else:
-                print("Please enter a valid time - Hours(0 - 23) and Minutes(0 - 59)")
+                print("Please enter a valid time in the future - Hours(0 - 23) and Minutes(0 - 59)")
                 continue
         except ValueError:
-            print("Please enter a valid time - Hours(0 - 23) and Minutes(0 - 59)")
+            print("Please enter a valid time in the future - Hours(0 - 23) and Minutes(0 - 59)")
             continue
     print("\n")
     
